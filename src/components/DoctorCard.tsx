@@ -43,7 +43,7 @@ const DoctorCard = ({ doctor }: DoctorCardProps) => {
                 variant="secondary"
                 className="bg-healthcare-teal-light text-primary border-0 shrink-0"
               >
-                ${doctor.fee}
+                ₹{doctor.fee}
               </Badge>
             </div>
 

@@ -85,7 +85,7 @@ const BookingModal = ({ doctor, open, onClose }: BookingModalProps) => {
               <div>
                 <h4 className="font-semibold text-foreground">{doctor.name}</h4>
                 <p className="text-sm text-primary">{doctor.specialty}</p>
-                <p className="text-sm text-muted-foreground">Consultation Fee: ${doctor.fee}</p>
+                <p className="text-sm text-muted-foreground">Consultation Fee: ₹{doctor.fee}</p>
               </div>
             </div>
 
